@@ -18,6 +18,8 @@
 
         Password:
         <asp:TextBox ID="txtpassword" runat="server"></asp:TextBox><br /><br />
+        Email:
+<asp:TextBox ID="txtemail" runat="server"></asp:TextBox><br /><br />
 
         <asp:Button ID="btninsert" runat="server" Text="Insert" OnClick="btninsert_Click" />
 
